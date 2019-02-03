@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Registration">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/registration_fees"
+            style="@style/registrations_headings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/registration_fees" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registration_fees"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/StudentResearchScholarLine"
+                    style="@style/registrations_sub_headings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:paddingBottom="12dp"
+                    android:text="@string/StudentResearchScholarLine" />
+
+                <TextView
+                    android:id="@+id/Student_Scholar"
+                    style="@style/registrations_matter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Student_Scholar" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/AcademiciansLine"
+                    style="@style/registrations_sub_headings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:paddingBottom="12dp"
+                    android:text="@string/AcademiciansLine" />
+
+                <TextView
+                    android:id="@+id/Academicians"
+                    style="@style/registrations_matter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Academicians" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/Industry_Professionals_Line"
+                    style="@style/registrations_sub_headings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:paddingBottom="24dp"
+                    android:text="@string/Industry_Professionals_Line" />
+
+                <TextView
+                    android:id="@+id/Industry_Professionals"
+                    style="@style/registrations_matter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="24dp"
+                    android:text="@string/Industry_Professionals" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/registration_details"
+            style="@style/registrations_headings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearlayout"
+            android:padding="16dp"
+            android:text="@string/registration_details" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registration_details"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/AccountName"
+                    style="@style/registrations_sub_headings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:paddingBottom="12dp"
+                    android:text="@string/registration_details_name" />
+
+                <TextView
+                    android:id="@+id/AccountNameDetails"
+                    style="@style/registrations_matter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/registration_details_name_details" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/Type"
+                    style="@style/registrations_sub_headings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:paddingBottom="24dp"
+                    android:text="@string/registration_details_type" />
+
+                <TextView
+                    android:id="@+id/TypeDetails"
+                    style="@style/registrations_matter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="24dp"
+                    android:text="@string/registration_details_type_details" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/AccountNumber"
+                    style="@style/registrations_sub_headings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:paddingBottom="12dp"
+                    android:text="@string/registration_details_account" />
+
+                <TextView
+                    android:id="@+id/AccountNumberDetails"
+                    style="@style/registrations_matter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/registration_details_account_details" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/IFSC"
+                    style="@style/registrations_sub_headings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:paddingBottom="12dp"
+                    android:text="@string/registration_details_ifsc" />
+
+                <TextView
+                    android:id="@+id/IFSC_details"
+                    style="@style/registrations_matter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/registration_details_ifsc_details" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/MICR"
+                    style="@style/registrations_sub_headings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:paddingBottom="12dp"
+                    android:text="@string/registration_details_micr" />
+
+                <TextView
+                    android:id="@+id/MICR_details"
+                    style="@style/registrations_matter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/registration_details_micr_details" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/paper_submission"
+            style="@style/registrations_headings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearlayout2"
+            android:padding="16dp"
+            android:text="@string/paper_submission" />
+
+        <TextView
+            android:id="@+id/paper_submission_linktitle"
+            style="@style/contact_us_matter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/paper_submission"
+            android:text="@string/paper_submission_link_title" />
+        <TextView
+            android:id="@+id/paper_submission_link"
+            style="@style/contact_us_matter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:layout_below="@+id/paper_submission_linktitle"
+            android:paddingBottom="24dp"
+            android:text="@string/paper_submission_link" />
+
+        <TextView
+            android:id="@+id/paper_submission_mail"
+            style="@style/contact_us_matter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/paper_submission_link"
+            android:text="@string/paper_submission_mail" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AuthorGuidelines">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ioeconference.benoi.com.ioeconference.SmartTextView
+            android:id="@+id/author_guidelines_heading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/author_guidelines_heading"
+            style="@style/author_guidelines_first"
+            app:justified="true" />
+
+        <TextView
+            android:id="@+id/author_guidelines_points"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/author_guidelines_heading"
+            android:text="@string/author_guidelines_points"
+            style="@style/author_guidelines_second"/>
+
+        <ioeconference.benoi.com.ioeconference.SmartTextView
+            android:id="@+id/author_guidelines_last"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/author_guidelines_points"
+            android:text="@string/author_guidelines_last"
+            style="@style/author_guidelines_third"
+            app:justified="true" />
+        
+        <TextView
+            android:id="@+id/author_guidelines_link"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/author_guidelines_last"
+            android:layout_marginTop="15dp"
+            android:text="@string/author_guidelines_link"
+            android:autoLink="web"/>
+
+    </RelativeLayout>
+</ScrollView>

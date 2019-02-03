@@ -1,0 +1,173 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!--Header-->
+    <style name="header">
+        <item name="android:textColor">#f7f6f6</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/alegreya_sans_sc_bold</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!--Home title-->
+    <style name="home_title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+        <item name="android:textSize">24sp</item>
+
+    </style>
+
+    <!--Home Button-->
+
+    <!--About Conference-->
+    <style name="about_conference_matter">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+    </style>
+
+    <!--Call For Paper-->
+    <style name="call_for_paper_heading">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+    </style>
+
+    <style name="call_for_paper_sub_heading">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+    </style>
+
+    <style name="call_for_paper_matter">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+    </style>
+
+    <!--Important Dates-->
+    <style name="important_dates_matter_headings">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="important_dates_matter">
+        <item name="android:textColor">#251e1e</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!--Author Guidelines-->
+    <style name="author_guidelines_first">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+    </style>
+
+    <style name="author_guidelines_second">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+    </style>
+
+    <style name="author_guidelines_third">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+    <style name="names">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="names2">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+    <!--Registrations-->
+    <style name="registrations_headings">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="registrations_sub_headings">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="registrations_matter">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!--Advisory Board-->
+    <style name="advisory_board_matter">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+    </style>
+    <style name="advisory_board_matter2">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+    </style>
+    <style name="advisory_board_matter3">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+    </style>
+
+    <!--Contact Us-->
+    <style name="contact_us_headings">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="contact_us_matter">
+        <item name="android:textColor">#292121</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/alegreya</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#002c65</color>
+    <color name="colorPrimaryDark">#002351</color>
+    <color name="colorAccent">#b273ff</color>
+    <color name="white">#ffffff</color>
+    <color name="white_alpha">#30ffffff</color>
+
+    <!--First page-->
+    <color name="screen1">#002c65</color>
+
+
+
+</resources>

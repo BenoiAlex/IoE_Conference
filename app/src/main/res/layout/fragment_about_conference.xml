@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutConference">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+        <!-- TODO: Update blank fragment layout -->
+
+        <ioeconference.benoi.com.ioeconference.SmartTextView
+            android:id="@+id/about_conference_matter1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_conference_matter1"
+            style="@style/about_conference_matter"
+            app:justified="true"
+            android:paddingTop="12dp" />
+            <ioeconference.benoi.com.ioeconference.SmartTextView
+                android:id="@+id/about_conference_matter2"
+                android:layout_below="@+id/about_conference_matter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_conference_matter2"
+                style="@style/about_conference_matter"
+                app:justified="true" />
+            <ioeconference.benoi.com.ioeconference.SmartTextView
+                android:id="@+id/about_conference_matter3"
+                android:layout_below="@+id/about_conference_matter2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_conference_matter3"
+                style="@style/about_conference_matter"
+                app:justified="true" />
+
+
+
+        </RelativeLayout>
+</ScrollView>

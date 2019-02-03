@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">IoE CONFERENCE</string>
+
+    <!--Home Page-->
+    <string name="home_title">Smart IoE CONFERENCE </string>
+    <string name="home_button">Go to Home</string>
+    <string name="home_tab">HOME</string>
+    <string name="chief_guest"><u>Chief Guest</u></string>
+    <string name="chief_guest_names">Dr. Prahlada Ramarao, Padmashri 2015, Former VC DIAT India.</string>
+    <string name="guest_of_honor"><u>Guest of Honour</u></string>
+    <string name="guest_of_honor_name">	Prem Puri, Visiting Professor at ESSEC Management School Paris Area, France</string>
+    <string name="day1">Day 1</string>
+    <string name="keynote1_1"><u>Keynote Speaker 1</u></string>
+    <string name="keynote1_names_1">Dr. Prahlada Ramarao, Padmashri 2015, Former VC DIAT, Pune</string>
+    <string name="keynote2_1"><u>Keynote Speaker 2</u></string>
+    <string name="keynote2_names_1">Prem Puri, Visiting Professor at ESSEC Management School Paris Area, France</string>
+    <string name="day2">Day 2</string>
+    <string name="keynote1_2"><u>Keynote Speaker 1</u></string>
+    <string name="keynote1_name_2">Dr. Pr. Darcherif, Director Général ECAM-EPMI, (France)</string>
+    <string name="keynote2_2"><u>Keynote Speaker 2</u></string>
+    <string name="keynote2_names_2">Dr Ikram El Abbassi, Director of Development and Strategy</string>
+    <string name="chief_patrons"><u>CHIEF PATRONS</u></string>
+    <string name="chief_patrons_names"><ol><li>Prof. Dr. Vishwanath D. Karad (Founder President, MIT Group of Institutions)\n</li>
+                                           <li>Prof. Dr. Mangesh T. Karad (Executive President, MIT-ADT University, Loni Kalbhor,Pune)\n</li></ol></string>
+    <string name="patrons"><u>PATRONS</u></string>
+    <string name="patrons_names"><ol><li>Prof. Dr. Sunil Rai (Vice Chancellor, MIT-ADT University, Loni Kalbhor, Pune)\n</li>
+                                      <li>Prof. Sunita Karad (Dirctor MITCOMM, Director-ICT, MIT-ADT University, Loni Kalbhor,Pune)\n</li>
+                                      <li>Prof. Dr. Rajneeshkaur Sachdeo (Dean of Engineering, Head CSE Dept., MIT-SOE, Loni Kalbhour, Pune)\n</li>
+                                      <li>Prof. Dr. Kishore Ravande (Principal, MIT-SOE, Loni Kalbhour, Pune)\n</li></ol></string>
+    <string name="steerig"><u>STEERING COMMITTEE</u></string>
+    <string name="steerig_name"><ol><li>Dr. Rekha Sugandhi\n</li><li> Dr. Ashish Panat\n</li><li> Dr. Satish Patil\n</li>
+        <li>Dr. Sudharshan Sanap\n</li><li> Dr. Sunil Dhingare\n</li><li> Dr. Shalini Garg\n</li></ol></string>
+    <string name="coveners"><u>CONVENERS</u></string>
+    <string name="coveners_name"><ol><li>Prof. Sambhaji Sarode \n</li><li> Prof. Nagesh Jadhav\n</li><li> Prof. Monica Ravishankar\n</li></ol></string>
+
+
+
+
+    <!-- About conference -->
+    <string name="about_conference">ABOUT CONFERENCE</string>
+    <string name="about_conference_starting">MIT School of Engineering of MIT ADT University, Pune \n</string>
+    <string name="conference">First International Conference on Smart Internet of Everything(Smart IoE)\n</string>
+    <string name="about_place">MIT School of Engineering, Pune, Maharashtra, India\n</string>
+    <string name="about_date">20th and 21st December 2018\n</string>
+    <string name="about_conference_matter1">The Internet of Everything(IoE) is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human -to- human interaction or human -to- computer interaction.\n</string>
+    <string name="about_conference_matter2">\nIoE has evolved from the convergence of wireless technologies, micro- electromechanical systems (MEMS), microservices and the internet. The convergence has helped tear down the silo walls between operational technology (OT) and information technology (IT), allowing unstructured machine -generated data to be analyzed for insights that will drive improvements.\n</string>
+    <string name="about_conference_matter3">\nThe Conference is aimed at not only bringing in the views of experts and researchers but also at the betterment of the society. The knowledge of various experts specialized in this area would set a benchmark for the improvement that still needs to be done to improve the existing scenario. The Conference will facilitate the sharing of experiences of the students, academicians, industry professionals, and Researchers with each other.\n
+    </string>
+
+    <!--Call for papers-->
+    <string name="call_for_papers">CALL FOR PAPERS</string>
+    <string name="topics"><b><u>Topics for the Conference</u></b></string>
+    <string name="track1"><b>Track 1:- IoE and Healthcare</b></string>
+    <string name="track1_points"><ol><li> Remote patient Monitoring\n</li>
+        <li>Automatic alert system for human health\n</li>
+        <li>Tracking Staff, Patients and Inventory\n</li>
+        <li>Population Management\n</li>
+        <li>Communication Protocols\n</li>
+        <li>Data analytics\n</li>
+        <li>Data Acquisition\n</li>
+        <li>IoE Cloud\n</li>
+    </ol>
+    </string>
+    <string name="track2"><b>Track 2:-  Sensor Technologies</b></string>
+    <string name="track2_points"><ol><li> Wearable computing\n</li>
+        <li>MEMS and Sensors\n</li>
+        <li>Simplifying Complex Sensor Data\n</li>
+        <li>Measurement and Detection\n</li>
+        <li>Quality of Services\n</li>
+        <li>Security in Wireless Sensor Network\n</li>
+    </ol>
+    </string>
+    <string name="track3"><b>Track 3:- Network and Cyber security</b></string>
+    <string name="track3_points"><ol><li> Ethical Hacking\n</li>
+        <li>Wired and Wireless Network Security\n</li>
+        <li>Cloud computing security\n</li>
+        <li>Cyber security and AI\n</li>
+        <li>Blockchain technology.\n</li>
+    </ol>
+    </string>
+    <string name="track4"><b>Track 4:- Intelligent IoE systems </b> </string>
+    <string name="track4_points"><ol><li> Self Driven Car\n</li>
+        <li>Intelligent Transportation System\n</li>
+        <li>AI and Embedded Technologies\n</li>
+        <li>Cryptography and AI\n</li>
+        <li>Machine Learning and Deep Learning\n</li>
+    </ol>
+    </string>
+    <string name="track5"><b>Track 5:- Bioinformatics and Digital forensic</b></string>
+    <string name="track5_points"><ol><li> Bioinformatics and Applications\n</li>
+        <li>Data leakage, Data protection and Database forensics\n</li>
+        <li>Forensics of Virtual and Cloud Environments\n</li>
+    </ol>
+    </string>
+    <string name="track6"><b>Track 6:- Social Networks</b></string>
+    <string name="track6_points"><ol><li> Data mining in social networks\n</li>
+        <li>Crowdsourcing\n</li>
+        <li>Algorithms for graph reconstruction and network inference\n</li>
+        <li>New models and algorithms for social network analysis\n</li>
+        <li>Data privacy\n</li>
+        <li>Sentiment Analysis\n</li>
+    </ol>
+    </string>
+    <string name="track7"><b>Track 7:-  Smart IoE Applications</b></string>
+    <string name="track7_points"><ol><li> Smart IT and Communications\n</li>
+        <li>Clean Energy\n</li>
+        <li>IoT applications and strategies for Smart cities\n</li>
+        <li>Public safety \n</li>
+        <li>Smart Agriculture\n</li>
+        <li>Defence\n</li>
+    </ol></string>
+    <string name="track8"><b>Track 8:- General tracks</b></string>
+    <string name="note">* Not limited to above mentioned tracks.</string>
+
+    <!--Important Dates-->
+    <string name="important_dates">IMPORTANT DATES</string>
+    <string name="Paper_Submission_DeadlineLine"><u>Paper Submission Deadline</u></string>
+    <string name="Paper_Submission_Deadline">20th December, 2018</string>
+    <string name="AuthorNotificationofAcceptanceorRejectionLine"><u>Author Notification of Acceptance/Rejection</u></string>
+    <string name="AuthorNotificationofAcceptanceorRejection">30th December, 2018</string>
+    <string name="RegistrationandFinalManuscriptSubmissionLine"><u>Registration and Final Manuscript Submission</u></string>
+    <string name="RegistrationandFinalManuscriptSubmission">5th January, 2019</string>
+    <string name="DateofConferenceLine"><u>Date of Conference</u></string>
+    <string name="DateofConference">14th and 15th January 2019.</string>
+
+    <!--Author Guidelines-->
+    <string name="author_guidelines">AUTHOR GUIDELINES</string>
+    <string name="author_guidelines_heading">Authors are required to check off their submission\'s compliance with all of the following:-\n</string>
+    <string name="author_guidelines_points">1. Papers submitted by the author should be unique, unpublished paper based on original research work, project work, case study, paper review, etc.
+        \n2. Papers should be in IEEE template only.
+        \n3. The submission file is in Microsoft Word document file format only.\n\n</string>
+    <string name="author_guidelines_last">Template can be downloaded from following IEEE link:</string>
+    <string name="author_guidelines_link"> http://www.ieee.org/documents/MSW_USltr_format.doc
+</string>
+
+    <!--Registrations-->
+    <string name="registration">REGISTRATION</string>
+    <string name="registration_fees"><u>Registration Fees</u></string>
+    <string name="StudentResearchScholarLine">Student/Research Scholar:</string>
+    <string name="Student_Scholar">3500 INR</string>
+    <string name="AcademiciansLine">Academicians/Faculty:</string>
+    <string name="Academicians">4000 INR</string>
+    <string name="Industry_Professionals_Line">Industry Professionals:</string>
+    <string name="Industry_Professionals">4500 INR</string>
+    <string name="registration_details"><u>Registration Details</u></string>
+    <string name="registration_details_name">Name of Account:</string>
+    <string name="registration_details_name_details">M/S MIT ADTU-MITSOE</string>
+    <string name="registration_details_address">Address:</string>
+    <string name="registration_details_address_details">MIT MAEER RAJBAUG, LONI KALBHOR, PUNE-412201 MAHARASHTRA, INDIA</string>
+    <string name="registration_details_type">TYPE:</string>
+    <string name="registration_details_type_details">CURRENT INSTITUTIONAL</string>
+    <string name="registration_details_account">Account Number:</string>
+    <string name="registration_details_account_details">062521110000040</string>
+    <string name="registration_details_ifsc">IFSC Code:</string>
+    <string name="registration_details_ifsc_details">BKID0000625</string>
+    <string name="registration_details_micr">MICR Code:</string>
+    <string name="registration_details_micr_details">411013049</string>
+    <string name="paper_submission"><u>For Paper Submission</u></string>
+    <string name="paper_submission_link_title">For Paper Submission click on the link below</string>
+    <string name="paper_submission_link">https://docs.google.com/forms/d/e/1FAIpQLSfd46_jtS6ZC2GCcqQbtuT4ZE4COKln7sQyoWnRhk6UH6KVPA/viewform</string>
+    <string name="paper_submission_mail">Or Email Us On <b>events.cse@mituniversity.edu.in</b></string>
+
+
+
+    <!--Advisory Board-->
+    <string name="advisory_board">ADVISORY BOARD</string>
+    <string name="advisory_board_matter">ADVISORY BOARD</string>
+    <string name="advisory"><u>Advisory Committee</u></string>
+    <string name="advisory_names"><ol><li>Dr. Prahlada Ramarao, Padmashri 2015, Former VC DIAT, Pune\n</li>
+<li>Dr. D Vijay Rao, Scientist G, Additional Director\n</li>
+<li>Dr. Sunita Karad, Director MITCOM, Director ICT, MITADT University\n</li>
+<li>Dr. Suresh Borkar, Senior Faculty Member, Department of ECE, Illinois Institute of Technology, Chicago\n</li>
+<li>Dr. Madhukar Deshmukh, Bar-Ilan University, Israel\n</li>
+<li>Dr. S.G Bhirud, VJTIE, Dean, Former Chairman AICTE India\n</li>
+<li>Dr. P.Nagabhushan, Dean IIIT, Allahabad.\n</li>
+<li>Dr. Bakal J.W, Vice President, IETE India\n</li>
+<li>Dr. Varsha Patil, SPPU Pune\n</li>
+<li>Dr. M. B. Chandak, RCOEM - NAGPUR\n</li>
+<li>Dr. R. V. Pujeri, Director MIT COE Pune\n</li>
+<li>Manjri Ranade, Industry Expert, Core System\n</li>
+<li>Vivek Kulkarni, Persisteul, Pune\n</li>
+<li>Dr. Shashank Joshi, Dean, BVPU\n</li>
+<li>Dr. Anjali Mahajan\n</li>
+        <li>Dr. Vahida Attar, COEP, Pune</li></ol></string>
+    <string name="technical"><u>Technical Committee</u></string>
+    <string name="technical_names"><ol><li>Dr. Prachi Joshi, Data Science Consultant\n</li>
+<li>Dr. Sandeep Vanjale, BVPU Pune\n</li>
+<li>Dr. Rashmi T.R, VIT Chennai\n</li>
+<li>Dr. Amol Adamuthe, Shivaji University\n</li>
+<li>Dr. Satish Verma, Head IT, Pillai, Mumbai\n</li>
+<li>Dr. Geetanjali Kale, PICT Pune\n</li>
+<li>Dr. Sharvari, Pillai, Mumbai University\n</li>
+<li>Dr. Amol Madane, TCS Pune\n</li>
+<li>Dr. Sharmishta Desai, MITCOE Pune\n</li>
+<li>Dr. Virendra Shete, MITCOE Pune\n</li>
+<li>Dr. Sandeep Chaure\n</li>
+<li>Dr. Rekha Sugandhi\n</li>
+<li>Dr. Milind Penurkar\n</li>
+<li>Dr. Pranav Pawar\n</li>
+<li>Prof. Reena Pagare\n</li>
+        <li>Prof. Jyoti Malhotra</li></ol></string>
+    <!--Contact Us-->
+    <string name="contact_us">CONTACT US</string>
+    <string name="AddressLine">Address</string>
+    <string name="Address">MIT School of Engineering, Rajbaugh, Next to Hadapasar, Loni Kalbhor, Pune-412201</string>
+    <string name="Tel_Line">Tel:</string>
+    <string name="Tel">+91-9021080109</string>
+    <string name="Website_Line">Website</string>
+    <string name="Website">http://www.mituniversity.edu.in/icsioe/</string>
+    <string name="ForRegistrationsLine">For Registrations</string>
+    <string name="ForRegistrations">events.cse@mituniversity.edu.in</string>
+    <string name="ContactNoLine">Contact No</string>
+    <string name="ContactNo1">9011045041</string>
+    <string name="ContactNo2">9527252229</string>
+    <string name="ContactNo3">9049391230</string>
+    <string name="ForAnyOtherQueries">For Any Other Queries</string>
+    <string name="sambhaji_id">sambhaji.sarode@mituniversity.edu.in</string>
+    <string name="nagesh_id">nagesh.jadhav@mituniversity.edu.in</string>
+    <string name="monica_id">monica.shankar@mituniversity.edu.in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

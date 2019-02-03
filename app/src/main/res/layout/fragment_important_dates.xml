@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ImportantDates">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_marginTop="55dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/Paper_Submission_DeadlineLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Paper_Submission_DeadlineLine"
+            style="@style/important_dates_matter_headings"
+            android:paddingBottom="12dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/Paper_Submission_Deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Paper_Submission_Deadline"
+            style="@style/important_dates_matter"
+            android:paddingBottom="40dp"/>
+        <TextView
+            android:id="@+id/AuthorNotificationofAcceptanceorRejectionLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AuthorNotificationofAcceptanceorRejectionLine"
+            style="@style/important_dates_matter_headings"
+            android:paddingBottom="12dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/AuthorNotificationofAcceptanceorRejection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AuthorNotificationofAcceptanceorRejection"
+            style="@style/important_dates_matter"
+            android:paddingBottom="40dp"/>
+        <TextView
+            android:id="@+id/RegistrationandCameraReadyPaperSubmissionLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RegistrationandFinalManuscriptSubmissionLine"
+            style="@style/important_dates_matter_headings"
+            android:paddingBottom="12dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/RegistrationandCameraReadyPaperSubmission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RegistrationandFinalManuscriptSubmission"
+            style="@style/important_dates_matter"
+            android:paddingBottom="40dp"/>
+        <TextView
+            android:id="@+id/DateofConferenceLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DateofConferenceLine"
+            style="@style/important_dates_matter_headings"
+            android:paddingBottom="12dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/DateofConference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DateofConference"
+            style="@style/important_dates_matter"
+            android:paddingBottom="40dp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CallForPaper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/topics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/topics"
+            style="@style/call_for_paper_heading"
+            android:layout_marginBottom="24dp"/>
+        <View
+            android:layout_below="@+id/topics"
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/track1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view"
+            android:text="@string/track1"
+            style="@style/call_for_paper_sub_heading"
+            android:layout_marginBottom="12dp"/>
+
+
+        <TextView
+            android:id="@+id/track1_points"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/track1"
+            style="@style/call_for_paper_matter"
+            android:text="@string/track1_points" />
+
+        <View
+            android:layout_below="@+id/track1_points"
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/track2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view1"
+            style="@style/call_for_paper_sub_heading"
+            android:text="@string/track2"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/track2_points"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/track2"
+            style="@style/call_for_paper_matter"
+            android:text="@string/track2_points" />
+
+        <View
+            android:layout_below="@+id/track2_points"
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/track3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view2"
+            style="@style/call_for_paper_sub_heading"
+            android:text="@string/track3"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/track3_points"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/track3"
+            style="@style/call_for_paper_matter"
+            android:text="@string/track3_points" />
+
+        <View
+            android:layout_below="@+id/track3_points"
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/track4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view3"
+            style="@style/call_for_paper_sub_heading"
+            android:text="@string/track4"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/track4_points"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/track4"
+            style="@style/call_for_paper_matter"
+            android:text="@string/track4_points" />
+
+        <View
+            android:layout_below="@+id/track4_points"
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/track5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view4"
+            style="@style/call_for_paper_sub_heading"
+            android:text="@string/track5"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/track5_points"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/track5"
+            style="@style/call_for_paper_matter"
+            android:text="@string/track5_points" />
+        <View
+            android:layout_below="@+id/track5_points"
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/track6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view5"
+            style="@style/call_for_paper_sub_heading"
+            android:text="@string/track6"
+            android:layout_marginBottom="12dp"/>
+
+
+        <TextView
+            android:id="@+id/track6_points"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/track6"
+            style="@style/call_for_paper_matter"
+            android:text="@string/track6_points" />
+
+        <View
+            android:layout_below="@+id/track6_points"
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/track7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view6"
+            style="@style/call_for_paper_sub_heading"
+            android:text="@string/track7"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/track7_points"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/track7"
+            style="@style/call_for_paper_matter"
+            android:text="@string/track7_points" />
+
+        <View
+            android:layout_below="@+id/track7_points"
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/track8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view7"
+            style="@style/call_for_paper_sub_heading"
+            android:text="@string/track8"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/track8"
+            style="@style/call_for_paper_matter"
+            android:text="@string/note"
+            />
+        <View
+            android:layout_below="@+id/note"
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="15dp"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
